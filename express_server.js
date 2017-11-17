@@ -12,6 +12,7 @@ server.listen(8080);
 app.get('/index', function(req, res){
     //res.writeHead()/write()/end()
     //向客户端输出一段HTML响应消息
+    
     res.send('<h1>欢迎访问！这里是首页</h1>');
 })
 
